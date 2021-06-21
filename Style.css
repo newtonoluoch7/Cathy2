@@ -1,0 +1,185 @@
+*{box-sizing: border-box;}
+
+body {
+  min-height: 100%;
+  margin: 0%;
+padding: 0%;
+}
+
+.l_style{color: rgb(202, 90, 10);
+  font-family:"Arizonia", cursive;
+  font-size: 35px;
+}
+.l_style_2{
+  font-weight: 800;
+}
+
+#Title {
+  color: rgb(236, 145, 8);
+  background-color: rgb(236, 145, 8);
+  text-align: center;
+  height: 20px;
+}
+
+/* Global Styles */
+h1{
+  text-align: center;
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+  font-weight: 300;
+  font-size: 50px;
+  font-family: "DM Serif Display", serif;
+}
+
+h2{font-family: "DM Serif Display", serif;}
+
+.Site_texts p{text-align: center;
+padding: 0 12rem;}
+
+h5{
+font-size: 20px;
+font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+}
+
+
+/* Global Styles */
+
+/* whatsapp */
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}
+
+/* whatsapp */
+
+.container-fluid {
+  padding: 3% 15% 3%;
+}
+
+/* card */
+.card-group{
+padding-top: 4rem ;}
+.card .card-body p{text-align: left;}
+/* end of card */
+
+ /* end of counter */
+#counter-stats .container .row .stats i{color: orange;}
+#counter-stats .container .row .stats h5{
+  font-family: 'Montserrat', sans-serif;font-weight:700 ;}
+  #counter-stats .container .row{padding-bottom: 5rem;}
+
+  /* end of counter */
+
+.foot {
+  text-align: center;
+  color: white;
+  padding: 7% 15% 10%;
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.863),
+      rgba(255, 255, 0, 0.5)
+    ),
+    url(Images/pexels-sydney-troxell-718739.jpg);
+  background-size: cover;
+  background-position: center;
+  margin: auto;
+  font-family: "Arizonia", cursive;
+  font-size: 70px;
+}
+.fab {
+  size: 30px;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700|Montserrat:400,700);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css);
+
+body {
+  background: #ffffff;
+}
+
+/*/ start count stats /*/
+
+section#counter-stats {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.stats {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+}
+
+.stats .fa {
+  color: #008080;
+  font-size: 60px;
+}
+
+/*/ end count stats /*/
+
+/* footer */
+footer .container{
+  width: 100%;
+  margin: 0;
+  padding: 0%;
+}
+
+footer .footer-content {
+  background-color: rgb(15, 15, 15);
+  height: 300px;
+  text-align: left;
+  color: #ffffff;
+  display: flex;
+}
+
+footer .footer-content h2{font-size: 25px;}
+footer .footer-content p{font-size: 15px;}
+
+
+footer .footer-content .footer-section{
+flex: 1fr;
+padding: 25px;
+color: white;
+text-decoration: none;
+list-style: none;
+}
+
+footer .footer-content .footer-section a{
+  flex: 1fr;
+  padding: 25px;
+  color: white;
+  text-decoration: none;
+  list-style: none;
+  }
+footer .bottom {
+  background-color: black;
+  height: 1.5%;
+  text-align: center;
+  color: rgb(59, 59, 59);
+  padding: 0.5% 0%;
+  width: 100%;
+}
+
+
+/* Responsiveness */
+@media only screen and (max-width:700){
+  .card .card-body p{text-align: left;} 
+  .Site_texts p{text-align: left;
+    padding: 0 1rem;}
+}
